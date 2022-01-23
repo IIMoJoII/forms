@@ -1,0 +1,67 @@
+.formWrapper {
+    display: grid;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    height: 40px;
+}
+
+.inputError {
+    border-color: #db382c;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.error {
+    color: #db382c;
+}
+
+.dropWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.drop {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    margin-top: 40px;
+    background: white;
+    width: 100%;
+    z-index: 22;
+    filter: drop-shadow(3px 3px 10px rgba(17, 17, 17, 0.26));
+}
+
+.drop li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.drop li:hover {
+    background: #efefef;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.submit {
+    margin-top: 30px;
+}
